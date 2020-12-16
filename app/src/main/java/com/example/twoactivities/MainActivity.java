@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         String message = mMessageEditText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
         //startActivity(intent); This is for when we don't need to retrieve the results after
-        //SecondActivity.calss is done its job
+        //SecondActivity.class is done its job
         startActivityForResult(intent, TEXT_REQUEST);
 
         Log.d(LOG_TAG, "Button clicked!");
